@@ -1,5 +1,6 @@
 import React from "react";
 import './Homebody.css'
+import {Link} from "react-router-dom";
 
 function Homebody(){
     return(
@@ -16,7 +17,7 @@ function Homebody(){
             </span>
             </p>
 
-            <button id = 'explore-button'>EXPLORE</button>
+            <Link id = 'explore-button' to = './destination'>EXPLORE</Link>
         </div>
     )
 }

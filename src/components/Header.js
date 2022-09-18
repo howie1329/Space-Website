@@ -1,18 +1,15 @@
 import React from "react";
 import logo from './logo.svg';
 import './Header.css'
-import Destinationpage from './Destinationpage';
+import {Link} from 'react-router-dom';
 
-function onclicks(){
-    return (<Destinationpage />)
-}
 
 function Header(props){
     return(
         <div className = 'header-container'>
-            <img id="logo-image" src={logo} alt = 'Logo'></img>
-            <button id = 'home-link' onClick={onclicks}>00 HOME</button>
-            <button id = 'destination-link'>01 DESTINATION</button>
+            <Link id="logo-image" to = '/'><img src={logo} alt = 'Logo'></img></Link>
+            <Link id = 'home-link' to = '/'>00 HOME</Link>
+            <Link id = 'destination-link' to='/destination'> 01 DESTINATION </Link>
             <button id = 'crew-link'>02 CREW</button>
             <button id = 'tech-link'>03 TECHNOLOGY</button>
         </div>

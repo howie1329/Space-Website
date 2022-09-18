@@ -4,3 +4,18 @@
     max-width:100vw;
     max-height: 100vh;
 }
+.display-container{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows:repeat(12,1fr);
+}
+
+.app-header-container{
+    grid-column: 1/12;
+    grid-row: 1/2;
+}
+
+.app-route-container{
+    grid-column: 1/12;
+    grid-row: 3/11;
+}

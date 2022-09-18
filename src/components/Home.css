@@ -10,12 +10,8 @@ body{
     grid-template-rows: repeat(12,1fr);
 }
 
-.home-container .header{
-    grid-column: 1/12;
-    grid-row: 1/2;
-}
 
 .home-body{
     grid-column: 1/12;
-    grid-row:3/11;
+    grid-row:1/11;
 }
