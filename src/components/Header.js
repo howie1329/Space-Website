@@ -10,8 +10,8 @@ function Header(props){
             <Link id="logo-image" to = '/'><img src={logo} alt = 'Logo'></img></Link>
             <Link id = 'home-link' to = '/'>00 HOME</Link>
             <Link id = 'destination-link' to='/destination'> 01 DESTINATION </Link>
-            <button id = 'crew-link'>02 CREW</button>
-            <button id = 'tech-link'>03 TECHNOLOGY</button>
+            <Link id = 'crew-link' to='/crew'> 02 CREW </Link>
+            <Link id = 'tech-link' to = '/technology'>03 TECHNOLOGY</Link>
         </div>
     )
 }

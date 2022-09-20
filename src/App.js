@@ -10,6 +10,8 @@ import mars_image from './components/image-mars.png'
 import europa_image from './components/image-europa.png'
 import titan_image from './components/image-titan.png'
 import Data from './components/data.json';
+import Crew from './components/Crew'
+import Technology from './components/Technology';
 
 function App(){
     // Data for Moon Card
@@ -35,6 +37,8 @@ function App(){
                         <Route path = '/destination/europa' element = {<DestinationCard name = {europa_data.name} body_text = {europa_data.description} image = {europa_image} distance = {europa_data.distance} travel_time = {europa_data.travel} />}/>
                         <Route path = '/destination/titan' element = {<DestinationCard name = {titan_data.name} body_text = {titan_data.description} image = {titan_image} distance = {titan_data.distance} travel_time = {titan_data.travel} />}/>
                     </Route>
+                    <Route path = '/crew' element = {<Crew />} />
+                    <Route path = '/technology' element = {<Technology />} />
                     
                 </Routes>
             </div>
