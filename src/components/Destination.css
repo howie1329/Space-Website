@@ -3,13 +3,14 @@
     grid-template-columns:repeat(12,1fr);
 }
 
-#destination-links{
+#destination-links{word-spacing: 2.7px;
     display:flex;
     justify-content:space-evenly;
     font-size:16px;
     grid-column: 8/11;
 }
 #links{
+    word-spacing: 2.7px;
     text-decoration: none;
     color:white;
     background-color:transparent;

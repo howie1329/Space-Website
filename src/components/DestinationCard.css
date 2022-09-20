@@ -31,6 +31,7 @@
 }
 
 #card-distance{
+    word-spacing: 2.35px;
     font-size:14px;
     grid-column: 8/10;
     grid-row: 8;
