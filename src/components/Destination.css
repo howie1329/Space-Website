@@ -1,0 +1,18 @@
+.destination-header{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+}
+
+#destination-links{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:16px;
+    grid-column: 8/11;
+}
+#links{
+    text-decoration: none;
+    color:white;
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+}

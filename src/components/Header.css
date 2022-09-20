@@ -12,6 +12,7 @@
 }
 
 #home-link{
+    text-decoration: none;
     color:white;
     background-color:transparent;
     border:none;
@@ -22,6 +23,7 @@
 }
 
 #destination-link{
+    text-decoration: none;
     color:white;
     background-color:transparent;
     border:none;
@@ -31,6 +33,7 @@
 }
 
 #crew-link{
+    text-decoration: none;
     color:white;
     background-color:transparent;
     border:none;
@@ -40,6 +43,7 @@
 }
 
 #tech-link{
+    text-decoration: none;
     color:white;
     background-color:transparent;
     border:none;

@@ -1,0 +1,51 @@
+.card-container{
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+}
+
+#card-header{
+    font-size: 28px;
+    grid-column: 3/7;
+    grid-row: 2;
+    margin-left: 80px;
+}
+
+#card-image{
+    grid-column: 3/8;
+    grid-row: 3/11;
+}
+
+#card-name{
+    font-size:100px;
+    grid-column: 8/11;
+    grid-row: 3/5;
+}
+
+#card-body{
+    padding-top: 20px;
+    font-size:18px;
+    grid-column: 8/11;
+    grid-row: 5/8;
+}
+
+#card-distance{
+    font-size:14px;
+    grid-column: 8/10;
+    grid-row: 8;
+}
+
+#distance-number{
+    font-size:28px;
+}
+
+#card-travel{
+    font-size:14px;
+    grid-column: 10/12;
+    grid-row: 8;
+}
+
+#travel-number{
+    font-size:28px;
+}
