@@ -1,10 +1,12 @@
 import React from "react";
 import Person from './Person'
 import data from './data.json'
-import douglas_image from './image-douglas-hurley.png'
-import mark_image from './image-mark-shuttleworth.png'
-import victor_image from './image-victor-glover.png'
-import ansari_image from './image-anousheh-ansari.png'
+import douglas_image from './assets/image-douglas-hurley.png'
+import mark_image from './assets/image-mark-shuttleworth.png'
+import victor_image from './assets/image-victor-glover.png'
+import ansari_image from './assets/image-anousheh-ansari.png'
+
+
 
 function Crew() {
     const douglas = data.crew[0]

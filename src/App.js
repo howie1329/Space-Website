@@ -1,17 +1,17 @@
 import React from 'react';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import './App.css';
 import {Route,Routes} from 'react-router-dom';
-import Destination from './components/Destination';
-import Header from './components/Header';
-import DestinationCard from './components/DestinationCard'
-import moon_image from './components/image-moon.png'
-import mars_image from './components/image-mars.png'
-import europa_image from './components/image-europa.png'
-import titan_image from './components/image-titan.png'
+import Destination from './components/Destination/Destination';
+import Header from './components/Home/Header';
+import DestinationCard from './components/Destination/DestinationCard'
+import moon_image from './components/assets/image-moon.png'
+import mars_image from './components/assets/image-mars.png'
+import europa_image from './components/assets/image-europa.png'
+import titan_image from './components/assets/image-titan.png'
 import Data from './components/data.json';
-import Crew from './components/Crew'
-import Technology from './components/Technology';
+import Crew from './components/Crew/Crew'
+import Technology from './components/Technology/Technology';
 
 function App(){
     // Data for Moon Card

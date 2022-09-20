@@ -1,9 +1,9 @@
 import React from "react";
 import Equipment from "./Equipment";
 import data from './data.json'
-import launch_image from './image-launch-vehicle-portrait.jpg'
-import spaceport_image from './image-spaceport-portrait.jpg'
-import space_capsule_image from './image-space-capsule-portrait.jpg'
+import launch_image from './assets/image-launch-vehicle-portrait.jpg'
+import spaceport_image from './assets/image-spaceport-portrait.jpg'
+import space_capsule_image from './assets/image-space-capsule-portrait.jpg'
 
 function Technology(){
     const launch = data.technology[0]
