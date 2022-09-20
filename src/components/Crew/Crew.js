@@ -14,7 +14,7 @@ function Crew() {
     const victor = data.crew[2]
     const ansari = data.crew[3]
     return (
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div className="crew-body" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div>
