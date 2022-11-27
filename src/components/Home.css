@@ -1,21 +1,21 @@
-body{
-    background-image: url('./background-home-desktop.jpg');
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+body {
+  background-image: url("./background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
-.home-container{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(12,1fr);
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 }
 
-.home-container .header{
-    grid-column: 1/12;
-    grid-row: 1/2;
+.home-container .header {
+  grid-column: 1/12;
+  grid-row: 1/2;
 }
 
-.home-body{
-    grid-column: 1/12;
-    grid-row:3/11;
+.home-body {
+  grid-column: 1/12;
+  grid-row: 3/11;
 }
